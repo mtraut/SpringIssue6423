@@ -1,0 +1,17 @@
+plugins {
+	id 'java'
+    id 'eclipse'
+}
+
+def versionSpring = '5.+'
+def versionSpringBoot = '2.+'
+
+dependencies {  
+
+	compile "org.springframework:spring-beans:${versionSpring}"	
+	compile "org.springframework.security:spring-security-core:${versionSpring}"	
+
+	compile "org.springframework.boot:spring-boot-starter-web:${versionSpringBoot}"
+  	compile "org.springframework.boot:spring-boot-starter-security:${versionSpringBoot}"
+
+}
